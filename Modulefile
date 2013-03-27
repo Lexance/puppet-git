@@ -1,5 +1,5 @@
 name    'nesi-git'
-version '0.0.1'
+version '0.0.2'
 source 'https://github.com/nesi/puppet-git'
 author 'Aaron Hicks'
 license 'GPL3'
