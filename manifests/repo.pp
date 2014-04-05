@@ -76,7 +76,7 @@ define git::repo(
       user    => $owner,
       cwd     => $path,
       command => "${git::params::bin} checkout ${commit}",
-      unless  => "${git::params::bin} log | /bin/grep '${commit}'",
+      unless  => "${git::params::bin} rev-parse --verify HEAD | /bin/grep '${commit}'",
       require => Exec["git_repo_${name}"],
     }
   } else {
