@@ -1,14 +1,13 @@
-Support discontinued
-====================
+#Support discontinued
 The support for this bundle is discontinued because there is now an offical puppet module. https://forge.puppetlabs.com/puppetlabs/git/
 
 
 # puppet-git
-============
+
 
 A puppet module for managing git resources
 
-# To install into puppet
+## To install into puppet
 
 Clone into your puppet configuration in your `puppet/modules` directory:
 
