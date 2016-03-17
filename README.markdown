@@ -1,3 +1,8 @@
+Support discontinued
+====================
+The support for this bundle is discontinued because there is now an offical puppet module. https://forge.puppetlabs.com/puppetlabs/git/
+
+
 # puppet-git
 ============
 
